@@ -17,6 +17,7 @@
     "test": "npx tsx tests/core.test.ts && npx tsx tests/calibration.test.ts && npx tsx tests/turbo.test.ts && npx tsx tests/arq.test.ts && npx tsx tests/file-pack.test.ts"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.6.2",
     "@types/node": "^22.10.2",
     "@vitejs/plugin-basic-ssl": "^2.3.0",
     "tsx": "^4.19.2",
@@ -35,5 +36,9 @@
     "web-audio-api",
     "air-gapped",
     "offline-sharing"
-  ]
+  ],
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  }
 }
